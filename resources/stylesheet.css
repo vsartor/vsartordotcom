@@ -1,0 +1,280 @@
+
+/* Title */
+
+.title-box {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	text-align: center;
+	color: #333333;
+}
+
+.title-intro {
+	font-style: italic;
+	margin-top: 2.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.3rem;
+	display: block;
+	line-height: 1;
+}
+
+.title-text {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 3rem;
+	display: block;
+	line-height: 1;
+}
+
+.title-text a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.title-text a:hover {
+	text-decoration: inherit;
+	color: #888888;
+}
+
+.title-small-comma {
+	font-size: 1.3rem;
+	display: inline-block;
+	margin-left: -0.5em;
+}
+
+.title-outro {
+	font-style: italic;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.3rem;
+	display: block;
+	line-height: 1;
+}
+
+.title-separator {
+	margin-top: 3rem;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.title-separator hr {
+	width: 25%;
+	border: none;
+	height: 1px;
+	background-color: #333333;
+	display: inline-block;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+@media only screen and (max-width: 919px) {
+	.title-separator hr {
+		width: 25%;
+		border: none;
+		height: 1px;
+		background-color: #333333;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 0.5em;
+		margin-top: 0.5em;
+	}
+}	
+
+.title-separator-text {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	font-style: italic;
+	font-size: 1.1em;
+	text-align: center;
+	color: #333333;
+	display: inline-block;
+}
+
+/* Navigation */
+
+.navigation-menu {
+	display: grid;
+	grid-gap: 5%;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-right: 25%;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+@media only screen and (max-width: 919px) {
+	.navigation-menu {
+		grid-template-columns: 1fr;
+	}
+}
+
+.navigation-menu a {
+	text-decoration: inherit;
+	color: #333333;
+}
+
+.navigation-menu a:hover {
+	text-decoration: inherit;
+	color: #888888;
+}
+
+.navigation-card {
+	display: grid;
+	font-family: "Palatino", "Book Antiqua", Serif;
+	grid-template-columns: 1fr;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+	text-align: center;
+	padding-top: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+	height: 14rem;
+}
+
+.navigation-card img {
+	max-height: 3rem;
+	padding-bottom: 2rem;
+	justify-self: center;
+}
+
+.navigation-card-title {
+	font-size: 1.5rem;
+	padding-bottom: 0.2em;
+}
+
+.navigation-card-description {
+	font-style: 1.3rem;
+	font-style: italic;
+}
+
+/* Announcement */
+
+.announcement {
+	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+	color: #333333; 
+}
+
+/* Resume */
+
+.resume-title-intro {
+	font-style: italic;
+	margin-top: 2.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.0rem;
+	display: block;
+	line-height: 1;
+}
+
+.resume-title-outro {
+	font-style: italic;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.8rem;
+	display: block;
+	line-height: 1;
+}
+
+.resume-separator {
+	margin-top: 1rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.resume-separator hr {
+	width: 25%;
+	border: none;
+	height: 1px;
+	background-color: #333333;
+	display: inline-block;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+
+.resume-body {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	font-size: 1.3rem;
+	font-style: italic;
+	color: #333333;
+}
+
+.resume-section {
+	display: flex;
+	margin-bottom: 2em;
+}
+
+.resume-section-title {
+	text-align: right;
+	width: 20%;
+	font-style: normal;
+}
+
+.resume-section-content {
+	text-align: left;
+	width: 80%;
+	padding-left: 5rem;
+	padding-right: 10%;
+	font-style: normal;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 699px){
+	.resume-section-title {
+		text-align: right;
+		width: 6em;
+		font-style: normal;
+	}
+
+	.resume-section-content {
+		text-align: left;
+		padding-left: 1rem;
+		padding-right: 0rem;
+		font-style: normal;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+}
+
+.resume-experience-company {
+	font-weight: bold;
+	display: inline;
+	font-size: 1.3rem;
+}
+
+.resume-experience-company-title-separator {
+	display: inline;
+	font-size: 1.3rem;
+}
+
+.resume-experience-title {
+	font-style: italic;
+	display: inline;
+	font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 800px) {
+	.resume-experience-company {
+		font-weight: bold;
+		display: block;
+		font-size: 1.3rem;
+	}
+
+	.resume-experience-company-title-separator {
+		display: none;
+	}
+
+	.resume-experience-title {
+		font-style: italic;
+		display: block;
+		font-size: 1.3rem;
+	}
+}
+
+.resume-experience-period {
+	color: #555555;
+	font-size: 1.0rem;
+}
+
+.resume-experience-description {
+}
