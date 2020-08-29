@@ -1,0 +1,21 @@
+${head}
+
+<body>
+${header}
+
+	<div class="title-separator">
+		<hr>
+		<div class="title-separator-text">
+			Check out <a href="@{base_url}/posts.html">all the posts</a>, or see the most recent below.
+		</div>
+		<hr>
+	</div>
+
+	#{post-start}:3
+	<div class="post-preview-body">
+		<div class="post-title"><a href="#{post-url}">#{post-title}</a></div>
+		<div class="post-subtitle">By #{post-author} in #{post-date}</div>
+		<div class="post-preview">#{post-preview}</div>
+	</div>
+	#{post-end}
+</body>

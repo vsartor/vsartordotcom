@@ -1,9 +1,20 @@
 - name: "home"
   template: "home"
   url: "index.html"
+  blog: false
 - name: "social"
   template: "social"
   url: "social.html"
+  blog: false
 - name: "cv"
   template: "cv"
   url: "cv.html"
+  blog: false
+- name: "blog"
+  template: "blog"
+  url: "blog.html"
+  blog: true
+- name: "posts"
+  template: "posts"
+  url: "posts.html"
+  blog: true

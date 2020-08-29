@@ -76,7 +76,7 @@
 		margin-bottom: 0.5em;
 		margin-top: 0.5em;
 	}
-}	
+}
 
 .title-separator-text {
 	font-family: "Palatino", "Book Antiqua", Serif;
@@ -85,6 +85,16 @@
 	text-align: center;
 	color: #333333;
 	display: inline-block;
+}
+
+.title-separator-text a {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.title-separator-text a:hover {
+	color: #888888;
+	text-decoration: underline;
 }
 
 /* Navigation */
@@ -143,15 +153,6 @@
 .navigation-card-description {
 	font-style: 1.3rem;
 	font-style: italic;
-}
-
-/* Announcement */
-
-.announcement {
-	font-size: 3em;
-	font-style: italic;
-	text-align: center;
-	color: #333333; 
 }
 
 /* Resume */
@@ -278,3 +279,79 @@
 
 .resume-experience-description {
 }
+
+/* Blog */
+
+.post-preview-body {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+	margin: auto;
+	width: 80%;
+}
+
+.post-title {
+	font-size: 2rem;
+	font-style: italic;
+	margin-bottom: 0.2rem;
+}
+
+.post-title a {
+	color: #333333;
+	text-decoration: inherit;
+}
+
+.post-subtitle {
+	font-size: 1rem;
+	font-style: italic;
+	margin-bottom: 1.4rem;
+}
+
+.post-preview {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.back-to-blog {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+}
+
+.back-to-blog a {
+	color: #333333;
+	text-decoration: inherit;
+}
+
+.back-to-blog a:hover {
+	color: #888888;
+}
+
+.post-page-header {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+	font-style: italic;
+	margin: auto;
+	width: 90%;
+}
+
+.post-page-title {
+	margin-top: 3rem;
+	font-size: 3rem;
+	margin-bottom: 0.2rem;
+}
+
+.post-page-subtitle {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+.post-body {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+	font-style: italic;
+	font-size: 1.3rem;
+	margin: auto;
+	width: 90%;
+	line-height: 1.8rem;
+}
+
+

@@ -5,4 +5,5 @@
 - name: "keywords"
   value: "Data Science, Agile, Internet, CV, Portfolio"
 - name: "base_url"
-  value: "https://vsartor.com"
+  #value: "https://vsartor.com"
+  value: "/Users/victhor.sartorio/Blog"
