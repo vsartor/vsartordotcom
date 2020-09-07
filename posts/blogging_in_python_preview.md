@@ -1,1 +1,3 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ante ipsum. Phasellus quam ligula, convallis id mauris vitae, ultrices varius dolor. Phasellus ultrices magna condimentum porttitor dictum. Vestibulum congue diam sit amet lacus egestas accumsan eget nec tortor. Aliquam in congue velit, vel fermentum neque. Etiam tempor ipsum eu eros rutrum efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+I've always liked writing, and the idea of having a blog where I can write and publish about topics I find interesting has been attractive to me for the last couple of years. I gave blogging  a try a couple of times before, but the tools I worked with never completely satisfied me: I felt either overencumbered or limited by them. Now I built Ochs, a Python command line tool, as an attempt to hit that perfect spot for me.

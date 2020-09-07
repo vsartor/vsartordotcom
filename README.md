@@ -2,4 +2,4 @@
 
 This repository holds the source code for my personal blog, [vsartor.com](https://vsartor.com).
 
-The source code in this repository can be transformed into a static website by [pyblog](https://github.com/vsartor/pyblog).
+This is an Ochs source project. [Check out Ochs!](https://github.com/vsartor/ochs)

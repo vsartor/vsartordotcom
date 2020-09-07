@@ -1,6 +1,6 @@
 - name: "description"
-  value: "Victhor Satório - A personal internet landing page."
+  value: "Victhor Satório - A personal website, blog included."
 - name: "keywords"
-  value: "Blog, Data Science, Agile, Internet, CV, Portfolio"
+  value: "Blog, Data Science, Machine Learning, Software Engineering, Agile, Internet, CV, Portfolio"
 - name: "base_url"
   value: "https://vsartor.com"

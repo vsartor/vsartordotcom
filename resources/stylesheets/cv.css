@@ -9,6 +9,24 @@
 	line-height: 1;
 }
 
+.title-text {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 3rem;
+	display: block;
+	line-height: 1;
+}
+
+.title-text a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.title-text a:hover {
+	text-decoration: inherit;
+	color: #888888;
+}
+
 .resume-title-outro {
 	font-style: italic;
 	margin-top: 0.5rem;
