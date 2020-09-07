@@ -1,0 +1,124 @@
+/* This stylesheet contains styling for the CV page */
+
+.resume-title-intro {
+	font-style: italic;
+	margin-top: 2.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.0rem;
+	display: block;
+	line-height: 1;
+}
+
+.resume-title-outro {
+	font-style: italic;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.8rem;
+	display: block;
+	line-height: 1;
+}
+
+.resume-separator {
+	margin-top: 1rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.resume-separator hr {
+	width: 25%;
+	border: none;
+	height: 1px;
+	background-color: #333333;
+	display: inline-block;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+
+.resume-body {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	font-size: 1.3rem;
+	font-style: italic;
+	color: #333333;
+}
+
+.resume-section {
+	display: flex;
+	margin-bottom: 2em;
+}
+
+.resume-section-title {
+	text-align: right;
+	width: 20%;
+	font-style: normal;
+}
+
+.resume-section-content {
+	text-align: left;
+	width: 80%;
+	padding-left: 5rem;
+	padding-right: 10%;
+	font-style: normal;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 699px){
+	.resume-section-title {
+		text-align: right;
+		width: 6em;
+		font-style: normal;
+	}
+
+	.resume-section-content {
+		text-align: left;
+		padding-left: 1rem;
+		padding-right: 0rem;
+		font-style: normal;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+}
+
+.resume-experience-company {
+	font-weight: bold;
+	display: inline;
+	font-size: 1.3rem;
+}
+
+.resume-experience-company-title-separator {
+	display: inline;
+	font-size: 1.3rem;
+}
+
+.resume-experience-title {
+	font-style: italic;
+	display: inline;
+	font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 800px) {
+	.resume-experience-company {
+		font-weight: bold;
+		display: block;
+		font-size: 1.3rem;
+	}
+
+	.resume-experience-company-title-separator {
+		display: none;
+	}
+
+	.resume-experience-title {
+		font-style: italic;
+		display: block;
+		font-size: 1.3rem;
+	}
+}
+
+.resume-experience-period {
+	color: #555555;
+	font-size: 1.0rem;
+}
+
+.resume-experience-description {
+}

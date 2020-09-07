@@ -1,0 +1,61 @@
+/* This stylesheet contains styles for the navigation boxes from vsartor.com */
+
+.navigation-menu {
+	display: grid;
+	grid-gap: 5%;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-right: 25%;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+@media only screen and (max-width: 919px) {
+	.navigation-menu {
+		grid-template-columns: 1fr;
+	}
+}
+
+.navigation-menu a {
+	text-decoration: inherit;
+	color: #333333;
+}
+
+.navigation-menu a:hover {
+	text-decoration: inherit;
+	color: #888888;
+}
+
+.navigation-card {
+	display: grid;
+	font-family: "Palatino", "Book Antiqua", Serif;
+	grid-template-columns: 1fr;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+	text-align: center;
+	padding-top: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+	height: 14rem;
+}
+
+.navigation-card img {
+	max-height: 3rem;
+	padding-bottom: 2rem;
+	justify-self: center;
+}
+
+.navigation-card-title {
+	font-size: 1.5rem;
+	padding-bottom: 0.2em;
+}
+
+.navigation-card-description {
+	font-style: 1.3rem;
+	font-style: italic;
+}
+
+.footer-space {
+	padding-bottom: 10em;
+}

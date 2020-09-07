@@ -1,20 +1,35 @@
 - name: "home"
   template: "home"
   url: "index.html"
-  blog: false
+  is_blog_page: false
+  variables:
+    title: "Victhor Sartório - Homepage"
+    stylesheet: "navboxes.css"
 - name: "social"
   template: "social"
   url: "social.html"
-  blog: false
+  is_blog_page: false
+  variables:
+    title: "Victhor Sartório - Social"
+    stylesheet: "navboxes.css"
 - name: "cv"
   template: "cv"
   url: "cv.html"
-  blog: false
+  is_blog_page: false
+  variables:
+    title: "Victhor Sartório - CV"
+    stylesheet: "cv.css"
 - name: "blog"
   template: "blog"
   url: "blog.html"
-  blog: true
+  is_blog_page: true
+  variables:
+    title: "Victhor Sartório - Blog"
+    stylesheet: "blog.css"
 - name: "posts"
   template: "posts"
   url: "posts.html"
-  blog: true
+  is_blog_page: true
+  variables:
+    title: "Victhor Sartório - Posts"
+    stylesheet: "blog.css"

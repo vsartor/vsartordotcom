@@ -1,0 +1,84 @@
+/* This stylesheet contains common elements to various pages from vsartor.com */
+
+.title-box {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	text-align: center;
+	color: #333333;
+}
+
+.title-intro {
+	margin-top: 2.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 2rem;
+	display: block;
+	line-height: 1;
+}
+
+.title-intro b {
+	font-style: italic;
+	font-size: 2.1rem;
+}
+
+span.line {
+	display: inline-block;
+}
+
+.title-outro {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.3rem;
+	display: block;
+	line-height: 1;
+}
+
+.title-outro a {
+	color: #333333;
+}
+
+.title-separator {
+	margin-top: 3rem;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.title-separator hr {
+	width: 10%;
+	border: none;
+	height: 1px;
+	background-color: #333333;
+	display: inline-block;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+@media only screen and (max-width: 919px) {
+	.title-separator hr {
+		width: 25%;
+		border: none;
+		height: 1px;
+		background-color: #333333;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 0.5em;
+		margin-top: 0.5em;
+	}
+}
+
+.title-separator-text {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	font-style: italic;
+	font-size: 1.1em;
+	text-align: center;
+	color: #333333;
+	display: inline-block;
+}
+
+.title-separator-text a {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.title-separator-text a:hover {
+	color: #888888;
+	text-decoration: underline;
+}

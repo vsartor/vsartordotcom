@@ -1,0 +1,136 @@
+/* This stylesheet contains styling for blog elements */
+
+.post-preview-body {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+	margin: auto;
+	text-align: justify;
+	width: 60%;
+}
+
+@media only screen and (max-width: 919px) {
+	.post-preview-body {
+		width: 85%;
+	}
+}
+
+.post-title {
+	font-size: 2rem;
+	font-style: italic;
+	margin-bottom: 0.2rem;
+}
+
+.post-title a {
+	color: #333333;
+	text-decoration: inherit;
+}
+
+.post-subtitle {
+	font-size: 1rem;
+	margin-bottom: 1.4rem;
+}
+
+.post-subtitle a {
+	color: #333333;
+	text-decoration: inherit;
+}
+
+.post-preview {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.post-preview a {
+	color: #333333;
+	text-decoration: inherit;
+}
+
+.back-to-blog {
+	padding-top: 1em;
+	padding-left: 1em;
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+}
+
+.back-to-blog a {
+	color: #333333;
+	text-decoration: inherit;
+}
+
+.back-to-blog a:hover {
+	color: #888888;
+}
+
+.post-page-header {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+	margin: auto;
+	width: 60%;
+}
+
+@media only screen and (max-width: 919px) {
+	.post-page-header {
+		width: 85%;
+	}
+}
+
+.post-page-title {
+	font-style: italic;
+	margin-top: 2rem;
+	font-size: 3rem;
+	margin-bottom: 0.2rem;
+}
+
+.post-page-subtitle {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+.post-body {
+	font-family: "Palatino", "Book Antiqua", Serif;
+	color: #333333;
+	text-align: justify;
+	font-size: 1.3rem;
+	margin: auto;
+	width: 60%;
+	line-height: 1.8rem;
+}
+
+@media only screen and (max-width: 919px) {
+	.post-body {
+		width: 85%;
+		text-align: left;
+	}
+}
+
+.post-body a {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.post-body a:hover {
+	color: #555555;
+	text-decoration: underline;
+}
+
+.post-body img {
+	max-width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.post-body h3 {
+	font-size: 1.1em;
+	padding-top: 0.5em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.post-body pre {
+	line-height: 1.3rem;
+}
+
+.post-body code {
+	white-space: pre-wrap;
+}
