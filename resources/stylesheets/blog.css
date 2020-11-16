@@ -16,7 +16,6 @@
 
 .post-title {
 	font-size: 2rem;
-	font-style: italic;
 	margin-bottom: 0.2rem;
 }
 
@@ -38,6 +37,7 @@
 .post-preview {
 	font-size: 1.2rem;
 	margin-bottom: 2rem;
+	line-height: 1.8rem;
 }
 
 .post-preview a {
