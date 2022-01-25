@@ -1,2 +1,5 @@
-base_url: "/Users/victhor/blog_output"
-year: "2021"
+base_url: "https://vsartor.com"
+year: "2022"
+description: "A blog by Victhor Sartório about data science and anything else."
+keywords: "blog, data science"
+coming_soon: "<em>Coming soon!</em>"

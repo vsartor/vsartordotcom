@@ -1,0 +1,1 @@
+In this post I introduce **genetic algorithms** from a pragmatic point of view, and go over how to implement your own genetic algorithm using **mendel-opt**, a library I developed to help connect the different parts of your genetic algorithm implementation together into a working solution, avoiding boilerplate code.

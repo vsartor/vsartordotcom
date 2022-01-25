@@ -4,22 +4,36 @@ ${head}
     ${sidebar}
 
     <div class="content">
-        ${header}
+        <div class="posts">
+            <section class="posts">
+                <h1 class="section-title">Pinned Messages</h1>
 
-        <div class="welcome-block">
-            <p>Welcome  to my blog! It's under maintenance ¯\_(ツ)_/¯</p>
-            <p>Come back in a few weeks if you're interested!</p>
-            <hr>
+                <h2 class="post-title"></h2>
+                <p class="post-meta">January 25th, 2022</p>
+                <div class="post-description">
+                    <p>
+                        Hello! Welcome to my newly created blog 🤗 I tried to keep it simple but there might be some visual bugs. <em>If you see anything weird please contact me through my e-mail</em> at <code>victhor@vsartor.com</code>. Hope you enjoy!
+                    </p>
+                </div>
+            </section>
+            <section class="posts">
+                <h1 class="section-title">Recent Posts</h1>
+
+                #{post-block-start}:3
+
+                <h2 class="post-title">
+                    <a href="#{post-url}">#{post-title}</a>
+                </h2>
+                <p class="post-meta">
+                    #{post-date:%B %d%s, %Y} #{post-coming-soon}
+                </p>
+                <div class="post-description">
+                    #{post-preview}
+                </div>
+
+                #{post-block-end}
+            </section>
         </div>
-
-        #{post-block-start}:3
-
-        <div class="pb-box">
-            <div class="pb-title"><a href="#{post-url}">#{post-title}</a></div>
-            <div class="pb-meta">#{post-date:%B %d%s, %Y}</div>
-            <div class="pb-preview">#{post-preview}</div>
-        </div>
-
-        #{post-block-end}
     </div>
+
 </body>
