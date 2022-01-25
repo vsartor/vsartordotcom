@@ -1,0 +1,25 @@
+${head}
+
+<body>
+    ${sidebar}
+
+    <div class="content">
+        ${header}
+
+        <div class="welcome-block">
+            <p>Welcome  to my blog! It's under maintenance ¯\_(ツ)_/¯</p>
+            <p>Come back in a few weeks if you're interested!</p>
+            <hr>
+        </div>
+
+        #{post-block-start}:3
+
+        <div class="pb-box">
+            <div class="pb-title"><a href="#{post-url}">#{post-title}</a></div>
+            <div class="pb-meta">#{post-date:%B %d%s, %Y}</div>
+            <div class="pb-preview">#{post-preview}</div>
+        </div>
+
+        #{post-block-end}
+    </div>
+</body>

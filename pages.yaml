@@ -1,0 +1,6 @@
+- name: "home"
+  template: "home"
+  url: "index.html"
+  is_blog_page: true
+  variables:
+    title: "vsartor.com - Home"

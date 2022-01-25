@@ -1,0 +1,8 @@
+- name: "head"
+  filename: "head.html"
+- name: "header"
+  filename: "header.html"
+- name: "home"
+  filename: "home.html"
+- name: "post"
+  filename: "post.html"

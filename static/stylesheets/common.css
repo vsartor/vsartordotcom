@@ -1,0 +1,182 @@
+/* base stylesheet for vsartor.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+:root {
+    --white: #ffffff;
+    --black: #4f4f4f;
+    --black-hover: #6f6f6f;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.content {
+    background-color: var(--white);
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    color: var(--black);
+    transition: 0.1s;
+}
+
+a {
+    color: var(--black) !important;
+}
+
+a:visited {
+    color: var(--black) !important;
+}
+
+a:hover {
+    color: var(--black-hover) !important;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+hr {
+    border: 0.1px solid var(--black3);
+}
+
+.title-box {
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.title {
+    font-size: 3.6rem;
+    font-weight: 100;
+    margin-bottom: 0m;
+}
+
+.title a {
+    text-decoration: none;
+    color: var(--black3);
+}
+
+.h-uc {
+    padding-top: 1em;
+    width: 4rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.welcome-block {
+    line-height: 1.2rem;
+    margin-bottom: 2em;
+}
+
+.pb-box {
+    padding-left: 0rem;
+    margin-bottom: 2.2rem;
+    color: var(--black4)
+}
+
+.pb-dot {
+    width: 1.2rem;
+    font-weight: 100;
+}
+
+.pb-title {
+    font-size: 1.7em;
+    font-weight: 100;
+}
+
+.pb-title a {
+    text-decoration: none;
+}
+
+.pb-meta {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.p-title {
+    margin-top: 1em;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.p-meta {
+    font-size: 1em;
+    font-style: italic;
+    padding-left: 0.2em;
+}
+
+
+/* sidebar stuff */
+
+.sidebar {
+    height: 0;
+    max-height: 100%;
+    width: 10em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 4em;
+    transition: 0.5s;
+    font-weight: 100;
+}
+
+.sidebar a {
+    padding-left: 1em;
+    padding-right: 0.5em;
+    line-height: 1.8em;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--black);
+    display: block;
+    transition: 0.1s;
+}
+
+.sidebar a:hover {
+    color: var(--black-hover);
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 2em;
+}
+
+.openbtn {
+    z-index: 1;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--black);
+    padding: 10px 15px;
+    border: none;
+    transition: 0.4s;
+}
+
+.openbtn:hover {
+    background-color: var(--black-hover);
+}
+
+@media (max-width: 1000px) {
+    .content {
+        margin-left: 3rem;
+        margin-right: 1.2rem;
+        width: auto;
+    }
+    .openbtn {
+        font-size: 13px;
+    }
+}
